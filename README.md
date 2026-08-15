@@ -19,3 +19,6 @@
 
 ## Removing an already committed file to its
 `git rm --cached <file_name>`
+
+## Deleting a pod using kubectl
+`kubectl delete pod <pod name>`
