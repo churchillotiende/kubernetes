@@ -56,3 +56,7 @@
 ## Getting replicasets
 
 `kubectl get replicaset`
+
+## Deleting replicaset 
+
+`kubectl delete replicaset myapp-replicaset`
