@@ -48,3 +48,7 @@
 ## Command for updating the replicaset
 
 `kubectl replace -f replicaset-definition.yaml`
+
+## The second command that is used to scale the replicaset is
+
+`kubectl scale --replicas=6 replicaset-definition.yaml`
