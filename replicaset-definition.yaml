@@ -11,12 +11,12 @@ spec:
       name: nginx
       labels:
         app: nginx
-        tier: front-end
+        type: front-end
     spec:
       containers:
         - name: nginx
           image: nginx
-  replicas: 3
+  replicas: 6
   selector:
     matchLabels:
-      tier: front-end
+      type: front-end

@@ -40,3 +40,11 @@
 
 ## Labels and selectors
 `The role of the replicaset is to monitor the pods and if any of them were to fail it deploys a new one`
+
+## Scaling the replica sets 
+
+`Update the value of the replicas say from 3 to 6`
+
+## Command for updating the replicaset
+
+`kubectl replace -f replicaset-definition.yaml`
