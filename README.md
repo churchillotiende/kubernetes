@@ -52,3 +52,7 @@
 ## The second command that is used to scale the replicaset is
 
 `kubectl scale --replicas=6 replicaset-definition.yaml`
+
+## Getting replicasets
+
+`kubectl get replicaset`
