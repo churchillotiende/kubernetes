@@ -33,3 +33,7 @@
 
 ## Pods created by the replication controllers
 `kubectl get pods`
+
+## The command to get a replicaset is 
+
+`kubectl get replicaset`
