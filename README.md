@@ -22,3 +22,8 @@
 
 ## Deleting a pod using kubectl
 `kubectl delete pod <pod name>`
+
+## Kubeernetes controllers
+### Replication controllers
+`Helps us to run multiple instances of a single pod thus providing high availability`
+`Load balancing and scaling`
