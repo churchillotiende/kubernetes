@@ -60,3 +60,7 @@
 ## Deleting replicaset 
 
 `kubectl delete replicaset myapp-replicaset`
+
+## Command for describing replicasets is  
+
+`kubectl describe replicaset myapp-replicast`
