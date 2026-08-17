@@ -37,3 +37,6 @@
 ## The command to get a replicaset is 
 
 `kubectl get replicaset`
+
+## Labels and selectors
+`The role of the replicaset is to monitor the pods and if any of them were to fail it deploys a new one`
