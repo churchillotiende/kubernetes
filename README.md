@@ -27,3 +27,9 @@
 ### Replication controllers
 `Helps us to run multiple instances of a single pod thus providing high availability`
 `Load balancing and scaling`
+
+`kubectl create -f rc-defintion.yaml`
+`kubectl  get replicationController`
+
+## Pods created by the replication controllers
+`kubectl get pods`
